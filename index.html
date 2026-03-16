@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Exam Panic Helper</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Exam Panic Helper</h1>
+<p class="subtitle">Predict Important Questions from Past 10 Years Papers</p>
+
+<div class="form-box">
+
+<label>College Name</label>
+<select id="college">
+<option value="">Select College</option>
+<option>Rajalakshmi Engineering College</option>
+<option>SRM University</option>
+<option>Anna University</option>
+</select>
+
+<label>Exam Type</label>
+<select id="exam">
+<option value="">Select Exam</option>
+<option>CAT</option>
+<option>Semester</option>
+<option>Model Exam</option>
+</select>
+
+<label>Topic</label>
+<select id="topic">
+<option value="">Select Topic</option>
+<option>Data Structures</option>
+<option>Operating System</option>
+<option>Artificial Intelligence</option>
+</select>
+
+<button onclick="predict()">Predict Questions</button>
+
+</div>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
